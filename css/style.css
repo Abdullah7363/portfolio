@@ -72,16 +72,28 @@
 
 /* start landing */
 
+.nav-container {
+  background-color: #ffffff;
+}
+
+
 .landing  {
-background-color: rgb(222, 135, 152);
+background-color: rgb(134, 123, 255);
+display: flex;
+justify-content: center;
+align-items: center;
+gap: 60px;
+
 
 }
 
 .socail {
 position: absolute;
-left: 10px;
-top: -50%;
+left: 30px;
+top: 50%;
 transform: translateY(-50%);
 
-
+}
+.socail i{
+  color: #ffffff;
 }
